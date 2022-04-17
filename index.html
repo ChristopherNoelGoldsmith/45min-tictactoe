@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js"></script>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+      }
+
+      .tictac {
+        height: 50px;
+        width: 50px;
+        border: 1px black solid;
+        margin: 2px;
+      }
+      .tictac:hover {
+        background-color: beige;
+        opacity: 0.8;
+      }
+      .p1-select {
+        background-color: red;
+      }
+
+      .p2-select {
+        background-color: blue;
+      }
+      .container {
+        width: 162px;
+        height: 162px;
+        margin: auto;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="1" class="tictac"></div>
+      <div id="2" class="tictac"></div>
+      <div id="3" class="tictac"></div>
+      <div id="4" class="tictac"></div>
+      <div id="5" class="tictac"></div>
+      <div id="6" class="tictac"></div>
+      <div id="7" class="tictac"></div>
+      <div id="8" class="tictac"></div>
+      <div id="9" class="tictac"></div>
+    </div>
+  </body>
+</html>
